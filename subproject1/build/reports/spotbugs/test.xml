@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1576095916868" analysisTimestamp="1576095916894" release="1.0-SNAPSHOT">
+  <Project projectName="root project &apos;subproject1&apos; (test)">
+    <Jar>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/build/classes/scala/test/edu/ie3/sample/EmptySpec.class</Jar>
+    <Jar>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/build/classes/groovy/test/edu/ie3/TestDummy.class</Jar>
+    <AuxClasspathEntry>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/build/classes/scala/test</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/build/classes/groovy/test</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/build/classes/scala/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.12.1/14973e22497adaf0196d481fb99c5dc2a0b58d41/log4j-slf4j-impl-2.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging_2.13/3.9.2/6986314976f55419819ca7ae9f9d077ba070fe42/scala-logging_2.13-3.9.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging-slf4j_2.11/2.1.2/7628485be79eacac9e7f19bf049f581394d45ea3/scala-logging-slf4j_2.11-2.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.26/daeb21c5e35d77d550e721c4cf5aaa716496d31a/log4j-over-slf4j-1.7.26.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scalanlp/breeze_2.13/1.0/735d168b26cd6d6fc4471e279c33595d9570d16d/breeze_2.13-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/77100a62c2e6f04b53977b9f541044d7d722693d/slf4j-api-1.7.26.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.4.2/e2543a63086b4189fbe418d05d56633bc1a815f7/disruptor-3.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.12.1/4382e93136c06bfb34ddfa0bb8a9fb4ea2f3df59/log4j-core-2.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.12.1/a55e6d987f50a515c9260b0451b4fa217dc539cb/log4j-api-2.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.13/3.0.8/640196fce185bddadf36d35200bca1b0a39015a8/scalatest_2.13-3.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scalanlp/breeze-macros_2.13/1.0/432f53653dbe0b5a377bb78df22ea54ec72abb54/breeze-macros_2.13-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.13/3.0.8/117808606de90b0dbe758f007caaeb74dba93d1/scalactic_2.13-3.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.typelevel/spire_2.13/0.17.0-M1/3aa06ad507a4e7237d9bd05d332fb3afa85f37f6/spire_2.13-0.17.0-M1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.typelevel/spire-platform_2.13/0.17.0-M1/e38d5f9b27a8173c6244d203ccf22b298480f1fe/spire-platform_2.13-0.17.0-M1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.typelevel/spire-util_2.13/0.17.0-M1/c5294efb0b15138bf62724cff99fc56fe98be858/spire-util_2.13-0.17.0-M1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.typelevel/spire-macros_2.13/0.17.0-M1/68e4b3d459b656f76d12dbfabe7c807b5aa9c5d9/spire-macros_2.13-0.17.0-M1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.typelevel/machinist_2.13/0.6.8/b8660584ac0f30e5a90298e6285b4b0778e931b1/machinist_2.13-0.6.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.0/2dbe07b0369dbf00a098b7925b2afca016f124b0/scala-reflect-2.13.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging-api_2.11/2.1.2/fed5521041c26b8c1daa2d5e5dc5f01b9bde4fe6/scala-logging-api_2.11-2.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.13/2.3.3/61817a5ac96ba59ce20b9073416c57519be40f41/shapeless_2.13-2.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.sksamuel.scapegoat/scalac-scapegoat-plugin_2.13.1/1.4.1/a3c03ccd8e37a42b69d638b7fa8f79b83c1f218b/scalac-scapegoat-plugin_2.13.1-1.4.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-collection-compat_2.13/2.1.2/ad922c360f9b66d4c55d2752303175b2f6772806/scala-collection-compat_2.13-2.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.13/1.2.0/f6abd60d28c189f05183b26c5363713d1d126b83/scala-xml_2.13-1.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.typelevel/algebra_2.13/2.0.0-M2/2c57ab7a5eae969b8c523dbb432dfc86cf9590fe/algebra_2.13-2.0.0-M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-kernel_2.13/2.0.0-M4/9eb24710804b722b419f4f5012edb3322f6d492d/cats-kernel_2.13-2.0.0-M4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/1418c956704990564fb9dfac5960647ca54b5a91/scala-library-2.13.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/3.2.0/38157d5fab1b47814827773ca3dff01c60e31425/mockito-core-3.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.wendykierp/JTransforms/3.1/f1f6d3c9c9bc04f848e38bdb77dea01e8764a01f/JTransforms-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/pl.edu.icm/JLargeArrays/1.5/fe1350c7b5537c144fb0af39206e212ad1bbbe2/JLargeArrays-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.9/122c7cee69b53ed4a7681c03d4ee4c0e2765da5/commons-lang3-3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/javax.measure/unit-api/2.0/fa16f415077b0d247a44b9a10d861cd26eb8dab8/unit-api-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.3-groovy-2.5/6f0df2cf4549dcc4b914971675da7e224e893e82/spock-core-1.3-groovy-2.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/2.5.4/8e84d6c02c465f9359fabd0279792da6461b7a3/groovy-test-2.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/junit/junit/4.13-rc-2/20125d483fd31ebb78a72257fd4a51145af2c333/junit-4.13-rc-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/3.3.0/87271c95d5bc9e37e4981c9593ff14d470b6684b/cglib-nodep-3.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.pegdown/pegdown/1.6.0/231ae49d913467deb2027d0b8a0b68b231deef4f/pegdown-1.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.3/db4e5b256de8945691b863e1b2150a6834e187e/byte-buddy-1.10.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.3/d7a2b692adb0f4e204fc52fc7da998b60d8483d/byte-buddy-agent-1.10.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/80da53ec862f283dc3b191b9dbd3166ea6671831/netlib-native_ref-osx-x86_64-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/5a3e5787d03c39790d5ae08cce189dd1ccc4a38/netlib-native_ref-linux-x86_64-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/eedd845b214aea560bce317d778ebb52f8f46038/netlib-native_ref-linux-i686-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/4ab54511c2844546279d9f8e427c73953b794686/netlib-native_ref-win-x86_64-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/167fb794a26cb0bfc74890c704c7137b1d5b50fd/netlib-native_ref-win-i686-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/ec467162f74710fd8897cff6888534ceaf297d9a/netlib-native_ref-linux-armhf-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/d724e33675dc8eaa5c8fcb05a3aaca6f3339afa7/netlib-native_system-osx-x86_64-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/163e88facabe7fa29952890dc2d3429e28501120/netlib-native_system-linux-x86_64-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/dd43225560dbd9115d306f9be3ca195aed236b78/netlib-native_system-linux-i686-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/27ae9f6a9c88b3f8d12ffa52d62941615f8ed416/netlib-native_system-linux-armhf-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/222c7915be1daf1c26a4206f375d4957ae5f9d81/netlib-native_system-win-x86_64-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/c25fd1881cf93f7716f47b7deec859f6b6b7be50/netlib-native_system-win-i686-1.1-natives.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.5.4/1b994708e4c7c9eaec29038cf9d84f318eed1de3/groovy-json-2.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/2.5.4/47616d5bee4c49e24559561a0700308704634ca3/groovy-nio-2.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/2.5.4/23935b7bf7d255e5e5417f9ffd836fc0864594e5/groovy-macro-2.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/2.5.4/898aed180580bcec7817c4e90857b0c2a69836ba/groovy-templates-2.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/2.5.4/2005b1c9ad89518c647ac0a8ebc42a7177c79ac9/groovy-sql-2.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.5.4/3a3b3c5e17e668993de994c8ac446e4251dbcb1/groovy-xml-2.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.5.4/86b94e2949bcff3a13b7ad200e4c5299b52ad994/groovy-2.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-java/1.1.7/2298c64ce8ee8e2fb37e97e16d7be52f0c7cf61f/parboiled-java-1.1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jhiry/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/java</SrcDir>
+    <SrcDir>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala</SrcDir>
+    <SrcDir>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/groovy</SrcDir>
+    <SrcDir>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala/edu/ie3/sample/EmptySpec.scala</SrcDir>
+    <SrcDir>/Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/groovy/edu/ie3/TestDummy.groovy</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="NoArgTest$module" signature="Lorg/scalatest/TestSuite$NoArgTest$;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/TestSuite$NoArgTest$;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.TestSuite$NoArgTest$" start="157" end="195" sourcefile="TestSuite.scala" sourcepath="org/scalatest/TestSuite.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="PrivateMethod$module" signature="Lorg/scalatest/PrivateMethodTester$PrivateMethod$;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/PrivateMethodTester$PrivateMethod$;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.PrivateMethodTester$PrivateMethod$" start="114" end="136" sourcefile="PrivateMethodTester.scala" sourcepath="org/scalatest/PrivateMethodTester.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="ShouldMethodHelper$module" signature="Lorg/scalatest/Matchers$ShouldMethodHelper$;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Matchers$ShouldMethodHelper$;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Matchers$ShouldMethodHelper$" start="6718" end="6748" sourcefile="Matchers.scala" sourcepath="org/scalatest/Matchers.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="a" signature="Lorg/scalatest/Matchers$AWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Matchers$AWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Matchers$AWord" start="2505" end="2554" sourcefile="Matchers.scala" sourcepath="org/scalatest/Matchers.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="after" signature="Lorg/scalactic/Explicitly$TheAfterWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalactic/Explicitly$TheAfterWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalactic.Explicitly$TheAfterWord" start="248" end="292" sourcefile="Explicitly.scala" sourcepath="org/scalactic/Explicitly.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="an" signature="Lorg/scalatest/Matchers$AnWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Matchers$AnWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Matchers$AnWord" start="2562" end="2611" sourcefile="Matchers.scala" sourcepath="org/scalatest/Matchers.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="assertionsHelper" signature="Lorg/scalatest/Assertions$AssertionsHelper;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Assertions$AssertionsHelper;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Assertions$AssertionsHelper" start="473" end="527" sourcefile="Assertions.scala" sourcepath="org/scalatest/Assertions.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="be" signature="Lorg/scalatest/words/BeWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/BeWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.BeWord" start="65" end="742" sourcefile="BeWord.scala" sourcepath="org/scalatest/words/BeWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="behave" signature="Lorg/scalatest/words/BehaveWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/BehaveWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.BehaveWord" start="49" end="89" sourcefile="BehaveWord.scala" sourcepath="org/scalatest/words/BehaveWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="compile" signature="Lorg/scalatest/words/CompileWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/CompileWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.CompileWord" start="25" end="25" sourcefile="CompileWord.scala" sourcepath="org/scalatest/words/CompileWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="contain" signature="Lorg/scalatest/words/ContainWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/ContainWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.ContainWord" start="38" end="569" sourcefile="ContainWord.scala" sourcepath="org/scalatest/words/ContainWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="decided" signature="Lorg/scalactic/Explicitly$DecidedWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalactic/Explicitly$DecidedWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalactic.Explicitly$DecidedWord" start="91" end="112" sourcefile="Explicitly.scala" sourcepath="org/scalactic/Explicitly.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="defined" signature="Lorg/scalatest/words/DefinedWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/DefinedWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.DefinedWord" start="25" end="32" sourcefile="DefinedWord.scala" sourcepath="org/scalatest/words/DefinedWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="determined" signature="Lorg/scalactic/Explicitly$DeterminedWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalactic/Explicitly$DeterminedWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalactic.Explicitly$DeterminedWord" start="121" end="145" sourcefile="Explicitly.scala" sourcepath="org/scalactic/Explicitly.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="empty" signature="Lorg/scalatest/words/EmptyWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/EmptyWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.EmptyWord" start="25" end="32" sourcefile="EmptyWord.scala" sourcepath="org/scalatest/words/EmptyWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="endWith" signature="Lorg/scalatest/words/EndWithWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/EndWithWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.EndWithWord" start="32" end="115" sourcefile="EndWithWord.scala" sourcepath="org/scalatest/words/EndWithWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="exist" signature="Lorg/scalatest/words/ExistWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/ExistWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.ExistWord" start="32" end="97" sourcefile="ExistWord.scala" sourcepath="org/scalatest/words/ExistWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="fullyMatch" signature="Lorg/scalatest/words/FullyMatchWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/FullyMatchWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.FullyMatchWord" start="31" end="94" sourcefile="FullyMatchWord.scala" sourcepath="org/scalatest/words/FullyMatchWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="have" signature="Lorg/scalatest/words/HaveWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/HaveWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.HaveWord" start="33" end="231" sourcefile="HaveWord.scala" sourcepath="org/scalatest/words/HaveWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="include" signature="Lorg/scalatest/words/IncludeWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/IncludeWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.IncludeWord" start="31" end="104" sourcefile="IncludeWord.scala" sourcepath="org/scalatest/words/IncludeWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="it" signature="Lorg/scalatest/WordSpecLike$ItWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/WordSpecLike$ItWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.WordSpecLike$ItWord" start="691" end="805" sourcefile="WordSpecLike.scala" sourcepath="org/scalatest/WordSpecLike.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="key" signature="Lorg/scalatest/Matchers$KeyWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Matchers$KeyWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Matchers$KeyWord" start="2433" end="2461" sourcefile="Matchers.scala" sourcepath="org/scalatest/Matchers.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="length" signature="Lorg/scalatest/words/LengthWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/LengthWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.LengthWord" start="24" end="40" sourcefile="LengthWord.scala" sourcepath="org/scalatest/words/LengthWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="matchPattern" signature="Lorg/scalatest/words/MatchPatternWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/MatchPatternWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.MatchPatternWord" start="28" end="46" sourcefile="MatchPatternWord.scala" sourcepath="org/scalatest/words/MatchPatternWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="not" signature="Lorg/scalatest/words/NotWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/NotWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.NotWord" start="46" end="1618" sourcefile="NotWord.scala" sourcepath="org/scalatest/words/NotWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="org$scalatest$WordSpecLike$$engine" signature="Lorg/scalatest/Engine;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Engine;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Engine" start="807" end="808" sourcefile="Engine.scala" sourcepath="org/scalatest/Engine.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="readable" signature="Lorg/scalatest/words/ReadableWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/ReadableWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.ReadableWord" start="25" end="30" sourcefile="ReadableWord.scala" sourcepath="org/scalatest/words/ReadableWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="regex" signature="Lorg/scalatest/Matchers$RegexWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Matchers$RegexWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Matchers$RegexWord" start="2106" end="2151" sourcefile="Matchers.scala" sourcepath="org/scalatest/Matchers.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="size" signature="Lorg/scalatest/words/SizeWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/SizeWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.SizeWord" start="24" end="40" sourcefile="SizeWord.scala" sourcepath="org/scalatest/words/SizeWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="sorted" signature="Lorg/scalatest/words/SortedWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/SortedWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.SortedWord" start="24" end="29" sourcefile="SortedWord.scala" sourcepath="org/scalatest/words/SortedWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="startWith" signature="Lorg/scalatest/words/StartWithWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/StartWithWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.StartWithWord" start="31" end="104" sourcefile="StartWithWord.scala" sourcepath="org/scalatest/words/StartWithWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="theSameInstanceAs" signature="Lorg/scalatest/Matchers$TheSameInstanceAsPhrase;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Matchers$TheSameInstanceAsPhrase;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Matchers$TheSameInstanceAsPhrase" start="2619" end="2647" sourcefile="Matchers.scala" sourcepath="org/scalatest/Matchers.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="they" signature="Lorg/scalatest/WordSpecLike$TheyWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/WordSpecLike$TheyWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.WordSpecLike$TheyWord" start="826" end="940" sourcefile="WordSpecLike.scala" sourcepath="org/scalatest/WordSpecLike.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="typeCheck" signature="Lorg/scalatest/words/TypeCheckWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/TypeCheckWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.TypeCheckWord" start="25" end="25" sourcefile="TypeCheckWord.scala" sourcepath="org/scalatest/words/TypeCheckWord.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="value" signature="Lorg/scalatest/Matchers$ValueWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/Matchers$ValueWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.Matchers$ValueWord" start="2469" end="2497" sourcefile="Matchers.scala" sourcepath="org/scalatest/Matchers.scala"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="1" rank="14" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="edu.ie3.sample.EmptySpec">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" start="12" end="24" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Class>
+    <Field classname="edu.ie3.sample.EmptySpec" name="writable" signature="Lorg/scalatest/words/WritableWord;" isStatic="false">
+      <SourceLine classname="edu.ie3.sample.EmptySpec" sourcefile="EmptySpec.scala" sourcepath="edu/ie3/sample/EmptySpec.scala"/>
+    </Field>
+    <Type descriptor="Lorg/scalatest/words/WritableWord;" role="TYPE_FOUND">
+      <SourceLine classname="org.scalatest.words.WritableWord" start="25" end="30" sourcefile="WritableWord.scala" sourcepath="org/scalatest/words/WritableWord.scala"/>
+    </Type>
+  </BugInstance>
+  <Errors errors="0" missingClasses="2">
+    <MissingClass>apply$mcV$sp</MissingClass>
+    <MissingClass>lambdaDeserialize</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Wed, 11 Dec 2019 21:25:16 +0100" total_classes="2" referenced_classes="394" total_bugs="36" total_size="346" num_packages="2" java_version="1.8.0_202" vm_version="25.202-b08" cpu_seconds="18.83" clock_seconds="4.21" peak_mbytes="264.86" alloc_mbytes="455.50" gc_seconds="0.17" priority_1="36">
+    <PackageStats package="edu.ie3" total_bugs="0" total_types="1" total_size="20">
+      <ClassStats class="edu.ie3.TestDummy" sourceFile="TestDummy.groovy" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.ie3.sample" total_bugs="36" total_types="1" total_size="326" priority_1="36">
+      <ClassStats class="edu.ie3.sample.EmptySpec" sourceFile="EmptySpec.scala" interface="false" size="326" bugs="36" priority_1="36"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1182" invocations="1927" avgMicrosecondsPerInvocation="613" maxMicrosecondsPerInvocation="2720" standardDeviationMicrosecondsPerInvocation="356"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="351" invocations="1921" avgMicrosecondsPerInvocation="183" maxMicrosecondsPerInvocation="19657" standardDeviationMicrosecondsPerInvocation="581"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="257" invocations="394" avgMicrosecondsPerInvocation="653" maxMicrosecondsPerInvocation="22043" standardDeviationMicrosecondsPerInvocation="1812"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="253" invocations="394" avgMicrosecondsPerInvocation="643" maxMicrosecondsPerInvocation="15594" standardDeviationMicrosecondsPerInvocation="1582"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="124" invocations="638" avgMicrosecondsPerInvocation="194" maxMicrosecondsPerInvocation="5175" standardDeviationMicrosecondsPerInvocation="456"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="117" invocations="282" avgMicrosecondsPerInvocation="415" maxMicrosecondsPerInvocation="85996" standardDeviationMicrosecondsPerInvocation="5117"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="111" invocations="394" avgMicrosecondsPerInvocation="283" maxMicrosecondsPerInvocation="8472" standardDeviationMicrosecondsPerInvocation="738"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="95" invocations="394" avgMicrosecondsPerInvocation="242" maxMicrosecondsPerInvocation="14421" standardDeviationMicrosecondsPerInvocation="1051"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="92" invocations="282" avgMicrosecondsPerInvocation="328" maxMicrosecondsPerInvocation="77871" standardDeviationMicrosecondsPerInvocation="4626"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="87" invocations="484" avgMicrosecondsPerInvocation="181" maxMicrosecondsPerInvocation="13661" standardDeviationMicrosecondsPerInvocation="850"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="84" invocations="394" avgMicrosecondsPerInvocation="213" maxMicrosecondsPerInvocation="7903" standardDeviationMicrosecondsPerInvocation="603"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="82" invocations="1875" avgMicrosecondsPerInvocation="43" maxMicrosecondsPerInvocation="12606" standardDeviationMicrosecondsPerInvocation="347"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="67" invocations="394" avgMicrosecondsPerInvocation="171" maxMicrosecondsPerInvocation="14827" standardDeviationMicrosecondsPerInvocation="817"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

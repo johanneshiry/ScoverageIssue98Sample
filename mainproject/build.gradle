@@ -1,0 +1,219 @@
+plugins {
+	id "com.jfrog.artifactory" version "4.9.7"
+	id 'groovy' // groovy support
+	id 'java' // java support
+	id 'scala' // scala support
+	id 'application' // creates a JVM executable
+	id 'maven-publish' // publish to a maven repo (local or mvn central, has to be defined)
+	id 'pmd' // code check, working on source code
+	id 'com.github.spotbugs' version '2.0.0' // code check, working on byte code
+	id 'com.diffplug.gradle.spotless' version '3.24.2'// code format
+	id 'com.simonharrer.modernizer' version '1.6.0-1' // detect deprecated APIs
+	id 'com.github.onslip.gradle-one-jar' version '1.0.5' // pack a self contained jar
+	id "de.undercouch.download" version "3.4.3" // downloads plugin
+	id "kr.motd.sphinx" version "2.5.0" // documentation generation
+	id "com.github.johnrengelman.shadow" version "5.1.0" // fat jar
+	id 'jacoco' // java code coverage plugin
+	id "org.sonarqube" version "2.7.1" // sonarqube
+	id "org.scoverage" version "4.0.0" // scala code coverage scoverage
+}
+
+ext {
+	//version (changing these should be considered thoroughly!)
+	hibernateVersion = '5.3.3.Final'
+	unitsOfMeasurementVersion = '1.0.8'
+	javaVersion = JavaVersion.VERSION_1_8
+
+	scalaVersion = '2.13' // for all plugins
+	scalaBinaryVersion = '2.13.1' // for scala itself
+	akkaVersion = '2.5.23'
+	tscfgVersion = '0.9.9'
+	slf4jVersion = '1.7.26'
+
+	scriptsLocation = 'gradle' + File.separator + 'scripts' + File.separator //location of script plugins
+	mainClass = 'edu.ie3.main.Run'
+}
+
+apply from: scriptsLocation + 'pmd.gradle'
+apply from: scriptsLocation + 'spotbugs.gradle'
+apply from: scriptsLocation + 'spotless.gradle'
+apply from: scriptsLocation + 'modernizer.gradle'
+apply from: scriptsLocation + 'checkJavaVersion.gradle'
+apply from: scriptsLocation + 'sphinx.gradle' // documentation tasks + configuration
+apply from: scriptsLocation + 'tests.gradle' // tasks for tests
+apply from: scriptsLocation + 'jacoco.gradle' // jacoco java code coverage
+apply from: scriptsLocation + 'scoverage.gradle' // scoverage scala code coverage
+
+configurations {
+	scalaCompilerPlugin
+}
+
+repositories {
+	mavenLocal() //searches in local maven repository, typically ~/.m2/repository
+	jcenter() //searches in bintray's repository 'jCenter', which contains Maven Central
+	maven { url 'https://jade.tilab.com/maven/' } // Maven repository for jade
+	maven { url 'https://www.jitpack.io' } // allows github repos as dependencies
+
+
+	flatDir {
+		dirs '../subproject1lib'
+	}
+
+}
+
+
+dependencies {
+	implementation "edu.ie3:subproject1:1.0-SNAPSHOT"
+
+	// logging
+	compile "org.slf4j:slf4j-api:${slf4jVersion}"  // slf4j wrapper
+	compile 'com.lmax:disruptor:3.4.2' // async logging
+	compile 'org.apache.logging.log4j:log4j-api:+' // log4j
+	compile 'org.apache.logging.log4j:log4j-core:+' // log4j
+	compile 'org.apache.logging.log4j:log4j-slf4j-impl:+' // log4j -> slf4j
+
+	compile "com.typesafe.scala-logging:scala-logging_${scalaVersion}:+" // akka scala logging
+	compile group: 'com.typesafe.scala-logging', name: 'scala-logging-slf4j_2.11', version: '2.1.2'// scala logging
+	compile "org.slf4j:log4j-over-slf4j:${slf4jVersion}" // slf4j -> log4j
+
+	// hibernate
+	compile 'org.hibernate:hibernate-core:' + hibernateVersion
+	compile 'org.hibernate:hibernate-entitymanager:' + hibernateVersion
+	compile 'org.hibernate:hibernate-ehcache:' + hibernateVersion
+	compile 'net.sf.ehcache:ehcache:2.10.4'
+	compile 'org.hibernate:hibernate-c3p0:' + hibernateVersion
+	compile 'org.hibernate:hibernate-spatial:' + hibernateVersion // for supporting PostGIS geo related information
+
+	// database
+	compile 'net.sourceforge.jtds:jtds:+'
+	compile 'org.postgresql:postgresql:+'
+	compile 'mysql:mysql-connector-java:+'
+
+	// testing
+	testCompile 'junit:junit:+'
+	testCompile 'org.spockframework:spock-core:1.3-groovy-+'
+	testCompile 'cglib:cglib-nodep:+' // enables mocking of classes (in addition to interfaces)
+	compile 'org.mockito:mockito-core:+' // mocking framework
+
+	compile 'com.tilab.jade:jade:+' // multi agent system
+	compile 'javax.measure:unit-api:+'
+	compile 'org.apache.commons:commons-math3:+' // apache commons math3
+	compile 'tec.uom:uom-se:' + unitsOfMeasurementVersion // quantities
+	compile 'org.apache.commons:commons-csv:+'
+	compile 'org.apache.commons:commons-lang3:+' // for HashCodeBuilder
+	compile 'com.rabbitmq:amqp-client:+'
+	compile 'com.github.johanneshiry:ascii-graphs:v0.0.8' // asci graph plotting in terminal for debugging
+	compile('com.googlecode.matrix-toolkits-java:mtj:+')
+	compile 'com.healthmarketscience.jackcess:jackcess:+' // for xml parsing
+	compile 'javax.xml.bind:jaxb-api:+' // xml parsing
+	compile 'commons-io:commons-io:+' // I/O functionalities
+	compile 'com.opencsv:opencsv:+' // for csv parsing
+	compile 'org.scalanlp:breeze_2.13:1.0' // scientific calculations (http://www.scalanlp.org/)
+
+	// NEW scala libs //
+	// CORE Akka //
+	implementation group: 'com.typesafe.akka', name: "akka-actor_${scalaVersion}", version: akkaVersion
+	implementation group: 'com.typesafe.akka', name: "akka-slf4j_${scalaVersion}", version: akkaVersion
+	implementation group: 'com.typesafe.akka', name: "akka-cluster_${scalaVersion}", version: akkaVersion
+	implementation group: 'com.typesafe.akka', name: "akka-contrib_${scalaVersion}", version: akkaVersion
+	compile group: 'com.typesafe.akka', name: "akka-cluster-sharding_${scalaVersion}", version: akkaVersion
+	compile group: 'com.typesafe.akka', name: "akka-cluster-tools_${scalaVersion}", version: akkaVersion
+
+	// CORE Scala //
+	compile "org.scala-lang:scala-library:${scalaBinaryVersion}"
+
+	// TEST Scala //
+	testCompile group: 'org.scalatest', name: "scalatest_${scalaVersion}", version: '3.0.8'
+	testRuntime "org.pegdown:pegdown:1.6.0" // HTML report for scalatest
+	testCompile group: 'com.typesafe.akka', name: "akka-testkit_${scalaVersion}", version: akkaVersion // akka testkit
+
+	// config //
+	implementation 'com.typesafe:config:+'
+	compile('com.github.carueda:tscfg:v' + tscfgVersion)
+
+	// cmd args parser //
+	compile "com.github.scopt:scopt_${scalaVersion}:+"
+
+	// https://mvnrepository.com/artifact/com.google.guava/guava
+	compile group: 'com.google.guava', name: 'guava', version: '28.0-jre'
+
+	// code style buildscript plugins
+	spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:+' // java spotbugs
+
+	compile "com.sksamuel.scapegoat:scalac-scapegoat-plugin_${scalaBinaryVersion}:1.4.1" // scala scapegoat
+	scalaCompilerPlugin "com.sksamuel.scapegoat:scalac-scapegoat-plugin_${scalaBinaryVersion}:1.4.1" // scala scapegoat
+}
+
+// scapegoat hook configuration
+// https://github.com/sksamuel/scapegoat
+// using compileScala instead of tasks.withType(ScalaCompile) prevents applying scapegoat to scala test classes
+// see https://docs.gradle.org/current/userguide/scala_plugin.html#sec:configure_scala_classpath for details
+compileScala {
+	scalaCompileOptions.additionalParameters = [
+			"-Xplugin:" + configurations.scalaCompilerPlugin.asPath,
+			"-P:scapegoat:dataDir:" + buildDir + "/reports/scapegoat/src/"
+	]
+}
+
+// separate scapegoat report for test classes
+compileTestScala {
+	scalaCompileOptions.additionalParameters = [
+			"-Xplugin:" + configurations.scalaCompilerPlugin.asPath,
+			"-P:scapegoat:dataDir:" + buildDir + "/reports/scapegoat/testsrc/"
+	]
+}
+
+wrapper {
+	gradleVersion = '5.4.1'
+}
+
+group = 'edu.ie3'
+version = '0.1-SNAPSHOT'
+description = 'mainproject'
+sourceCompatibility = javaVersion
+targetCompatibility = javaVersion
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+application {
+	mainClassName = mainClass
+}
+
+run {
+	//Gradle uses an empty Input as default, leading to a non - blocking behaviour and thus an immediate shutdown
+	standardInput = System.in
+}
+
+
+jar {
+	manifest {
+		attributes(
+				'Main-Class': mainClass
+		)
+	}
+}
+
+
+task sourcesJar(type: Jar) {
+	getArchiveClassifier().set('sources')
+	from(sourceSets.main.allSource)
+}
+
+task javadocJar(type: Jar) {
+	getArchiveClassifier().set('javadoc')
+	from(javadoc.destinationDir)
+}
+
+//////////////////////////////////////////////////////////////////////
+// Build akka'able fat jar using the gradle shadow plugin
+// see http://www.sureshpw.com/2015/10/building-akka-bundle-with-all.html
+// and https://github.com/akka/akka/issues/24248
+//////////////////////////////////////////////////////////////////////
+shadowJar {
+	transform(com.github.jengelman.gradle.plugins.shadow.transformers.AppendingTransformer) {
+		resource = 'reference.conf'
+	}
+	zip64 = true
+}

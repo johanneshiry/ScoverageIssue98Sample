@@ -1,0 +1,36 @@
+//////////////////////////////////////////////////////////////////////
+// Documentation generation and configuration
+//////////////////////////////////////////////////////////////////////
+sphinx {
+	// Change the source directory.
+	sourceDirectory = "${projectDir}/docs"
+	// Change the output directory.
+	outputDirectory = "${project.buildDir}/docs"
+}
+
+//////////////////////////////////////////////////////////////////////
+// Generate documentation
+// Important Note: you have to install GraphViz Manually before
+// beeing able to execute this task! -> https://graphviz.org
+//////////////////////////////////////////////////////////////////////
+task genDocs(dependsOn: sphinx) {
+	doLast {
+		def pumlJarFile = project.file('build/plantuml.jar')
+		if (!pumlJarFile.exists() || !pumlJarFile.isFile()) {
+			download {
+				src 'https://datapacket.dl.sourceforge.net/project/plantuml/plantuml.jar'
+				dest buildDir
+			}
+		}
+		javaexec {
+			main = "-jar"
+			args = [
+					"build/plantuml.jar",
+					"-psvg",
+					"-o", "../../build/docs/_static/uml/",
+					"docs/uml/*.puml"
+			]
+		}
+
+	}
+}

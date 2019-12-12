@@ -1,0 +1,12 @@
+products:
+   /Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala/edu/ie3/sample/EmptySpec.scala -> /Users/jhiry/IdeaProjects/scoverageSample/subproject1/build/classes/scala/test/edu/ie3/sample/EmptySpec.class
+binary dependencies:
+   /Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala/edu/ie3/sample/EmptySpec.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar
+   /Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala/edu/ie3/sample/EmptySpec.scala -> /Users/jhiry/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging_2.13/3.9.2/6986314976f55419819ca7ae9f9d077ba070fe42/scala-logging_2.13-3.9.2.jar
+   /Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala/edu/ie3/sample/EmptySpec.scala -> /Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/1418c956704990564fb9dfac5960647ca54b5a91/scala-library-2.13.1.jar
+   /Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala/edu/ie3/sample/EmptySpec.scala -> /Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.13/3.0.8/117808606de90b0dbe758f007caaeb74dba93d1/scalactic_2.13-3.0.8.jar
+   /Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala/edu/ie3/sample/EmptySpec.scala -> /Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.13/3.0.8/640196fce185bddadf36d35200bca1b0a39015a8/scalatest_2.13-3.0.8.jar
+source dependencies:
+external dependencies:
+class names:
+   /Users/jhiry/IdeaProjects/scoverageSample/subproject1/src/test/scala/edu/ie3/sample/EmptySpec.scala -> edu.ie3.sample.EmptySpec

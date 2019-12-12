@@ -1,0 +1,13 @@
+products:
+   /Users/jhiry/IdeaProjects/scoverageSample/mainproject/src/main/scala/edu/ie3/main/Run.scala -> /Users/jhiry/IdeaProjects/scoverageSample/mainproject/build/classes/scala/main/edu/ie3/main/Run$.class
+   /Users/jhiry/IdeaProjects/scoverageSample/mainproject/src/main/scala/edu/ie3/main/Run.scala -> /Users/jhiry/IdeaProjects/scoverageSample/mainproject/build/classes/scala/main/edu/ie3/main/Run.class
+binary dependencies:
+   /Users/jhiry/IdeaProjects/scoverageSample/mainproject/src/main/scala/edu/ie3/main/Run.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar
+   /Users/jhiry/IdeaProjects/scoverageSample/mainproject/src/main/scala/edu/ie3/main/Run.scala -> /Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/1418c956704990564fb9dfac5960647ca54b5a91/scala-library-2.13.1.jar
+source dependencies:
+external dependencies:
+   /Users/jhiry/IdeaProjects/scoverageSample/mainproject/src/main/scala/edu/ie3/main/Run.scala -> edu.ie3.sample.FancyDependency
+   /Users/jhiry/IdeaProjects/scoverageSample/mainproject/src/main/scala/edu/ie3/main/Run.scala -> edu.ie3.sample.FancyDependency$
+class names:
+   /Users/jhiry/IdeaProjects/scoverageSample/mainproject/src/main/scala/edu/ie3/main/Run.scala -> edu.ie3.main.Run
+   /Users/jhiry/IdeaProjects/scoverageSample/mainproject/src/main/scala/edu/ie3/main/Run.scala -> edu.ie3.main.Run$

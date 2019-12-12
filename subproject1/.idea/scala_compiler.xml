@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Gradle 2" modules="subproject1.main,subproject1.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-P:scapegoat:dataDir:/Users/jhiry/IdeaProjects/scoverageSample/subproject1/build/reports/scapegoat/src/" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.scapegoat/scalac-scapegoat-plugin_2.13.1/1.4.1/a3c03ccd8e37a42b69d638b7fa8f79b83c1f218b/scalac-scapegoat-plugin_2.13.1-1.4.1.jar:/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.13/1.2.0/f6abd60d28c189f05183b26c5363713d1d126b83/scala-xml_2.13-1.2.0.jar:/Users/jhiry/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-collection-compat_2.13/2.1.2/ad922c360f9b66d4c55d2752303175b2f6772806/scala-collection-compat_2.13-2.1.2.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
